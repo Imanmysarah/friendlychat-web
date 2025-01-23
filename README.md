@@ -1,5 +1,10 @@
 # Friendlychat
-
+## Prepared by: 
+    Name: NUR IMAN MYSARAH BINTI AMIRUDIN
+    Student ID: 2023216898
+    Group: CDCS2703B2
+    Lecturer Name: MUHAMMAD ATIF RAMLAN
+## Project Background
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
 
 ## Development server

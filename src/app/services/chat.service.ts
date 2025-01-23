@@ -92,7 +92,7 @@ logout() {
   })
 }
 
-  // Adds a text or image message to Cloud Firestore.
+// Adds a text or image message to Cloud Firestore.
 addMessage = async (
   textMessage: string | null,
   imageUrl: string | null,
@@ -143,7 +143,7 @@ addMessage = async (
   loadMessages_old = () => {
     return null as unknown;
   };
-  // Loads chat message history and listens for upcoming ones.
+// Loads chat message history and listens for upcoming ones.
 loadMessages = () => {
   // Create the query to load the last 12 messages and listen for new ones.
   const recentMessagesQuery = query(collection(this.firestore, 'messages'), orderBy('timestamp', 'desc'), limit(12));
